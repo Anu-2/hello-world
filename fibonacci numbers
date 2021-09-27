@@ -1,0 +1,11 @@
+i=0
+n=0
+print(n)
+m=1
+print(m)
+while i<=100:
+    p=m+n
+    print(p)
+    n=m
+    m=p
+    i=i+1
