@@ -1,0 +1,10 @@
+A={1,2,3,4,8}
+B={5,6,77,8}
+c=set(A.union(B))
+print("Union of A and B is",c)
+d=set(A.intersection(B))
+print("Intersection of A and B is",d)
+f=set(A.difference(B))
+print("Difference of A and B is",f)
+e=set(A.symmetric_difference(B))
+print("Symmetric difference of A and B is",e)
